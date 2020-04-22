@@ -1,2 +1,3 @@
 # py_selenium_translate
-一基于selenium的翻译爬虫  A translation spider based on selenium
+translate.py: 一基于selenium的翻译爬虫   
+getPictures.java 爬取b站用户的动态中的图片 ，同样基于selenium
