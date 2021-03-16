@@ -78,7 +78,7 @@ public class getPictures2 {
                     String innerHtml=we.getAttribute("innerHTML");
                     Matcher matcher2=pt2.matcher(innerHtml);
                     if (pt1.matcher(innerHtml).find()){
-                        if (matcher2.find()){
+                        while (matcher2.find()){
                             String link=matcher2.group();
                             if (link.contains("album"))
                                 links.add(link);
